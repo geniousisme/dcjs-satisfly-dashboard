@@ -45,9 +45,11 @@ var yearlyBubbleChart = dc.bubbleChart("#yearly-bubble-chart");
 //d3.json("data.json", function(data) {...};
 //jQuery.getJson("data.json", function(data){...});
 //```
-d3.csv("ndx.csv", function (data) {
+// d3.csv("ndx.csv", function (data) {
+d3.csv("data.csv", function (data) {
     /* since its a csv file we need to format the data a bit */
-    var dateFormat = d3.time.format("%m/%d/%Y");
+    // var dateFormat = d3.time.format("%m/%d/%Y");
+    var dateFormat = d3.time.format("%Y-%m-%d");
     var numberFormat = d3.format(".2f");
 
     data.forEach(function (d) {
