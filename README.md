@@ -75,3 +75,6 @@ License
 
 dc.js is an open source javascript library and licensed under
 [Apache License v2](http://www.apache.org/licenses/LICENSE-2.0.html).
+=======
+dcjs-satisfly-dashboard
+=======================
